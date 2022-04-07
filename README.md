@@ -1,3 +1,3 @@
 # leetcode
 
-Trying git on new user
+Learning DS&A through solving leetcode questions
