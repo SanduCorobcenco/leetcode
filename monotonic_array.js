@@ -1,5 +1,7 @@
 // O(N) time, O(N) space complexity
 
+const { expect } = require("@jest/globals");
+
 function isMonotonic(array) {
 	let isNonDecreasing = true;
 	let isNonIncreasing = true;
@@ -9,8 +11,7 @@ function isMonotonic(array) {
 	}
 	
 	return isNonDecreasing || isNonIncreasing;
-  // Write your code here.
+ 
 }
 
-console.log(isMonotonic([3,4,5,6,7,10]))
-console.log(isMonotonic([3,4,1,6,7,10]))
+module.exports = isMonotonic;
