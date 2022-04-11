@@ -12,3 +12,14 @@ test('this answer should be true', () => {
 test('this answer should be false', () => {
     expect(isMonotonic(falseAnswer)).toBe(false);
 });
+
+
+
+
+
+//  PASS  ./monotonic.test.js
+//   ✓ this answer should be true (1 ms)
+//   ✓ this answer should be false
+
+// Test Suites: 1 passed, 1 total
+// Tests:       2 passed, 2 total
